@@ -1,0 +1,94 @@
+            body
+            {
+                font-family: 'Tangerine', serif;
+                font-size: 48px;
+                text-shadow: 4px 4px 4px #aaa;
+                background-color: #C0C0C0;
+            }
+            .text_align
+            {
+                text-align: center;            
+            }
+            #btn
+            {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+            }
+           .quotes
+           {
+                color: white;
+                
+                border-radius: 10px;
+                margin: 5vh 0px;
+                padding: 10px;
+            }
+            @media only screen and (min-width:320px)
+            {
+                #container
+                {
+                    margin: 10px 8.33%; 
+                    width: 80%;  
+                    display: block; 
+                }
+                .quotes
+                {
+                    width: 100%;
+                }
+                body
+                {
+                    font-size: 30px;
+                }
+                h1
+                {
+                    font-size: 35px;
+                }
+            }
+            @media only screen and (min-width:480px)
+            {
+                #container
+                {
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    margin:0px 8.33%;
+                    width: 80%;
+                    display: flex;
+                }
+                .quotes
+                {
+                    flex-basis: 45%;
+                    box-sizing: border-box;
+                }
+                body
+                {
+                    font-size: 35px;
+                }
+                h1
+                {
+                    font-size: 40px;
+                }
+            }
+            @media only screen and (min-width:1100px) 
+            {
+                #container
+                {
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    margin:0px 16.66%;
+                    width: 60%;
+                    display: flex;
+                } 
+                .quotes
+                {
+                    flex-basis: 30%;
+                    box-sizing: border-box;
+                }
+                body    
+                {
+                    font-size:48px
+                }
+                h1
+                {
+                    font-size: 400%;
+                }
+            }
